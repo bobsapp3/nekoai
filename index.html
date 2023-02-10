@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プラグインサーバー｢猫を愛せ｣概要</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">｢猫を愛せ｣攻略ページ</h4>
+            <p>｢猫を愛せ｣に関係する情報をまとめて記載しているページです。確認は気が向いたときにしてください！
+                <br> また、新たに記載してほしい内容はお問い合わせまでお願いします！</p>
+            <hr>
+            <p class="mb-0">現在のサーバー:Paper 1.19.3    Javaの方は1.19.3で入ってください。</p>
+        </div>
+    </div>
+    <h2 class="ml-2">猫を愛せ 雑談チャンネルは<a target="_blank" href="https://discord.com/channels/1044690456195387514/1044690456887427165">ここ</a>！</h2>
+    <h2>
+        <p class="ml-2" id="table of contents">目次</p>
+    </h2>
+    <table class="ml-4" border="10">
+        <tbody>
+            <tr>
+                <th>
+                    <a href="#overview">概要</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="#terms of service">サーバー利用規約</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="#rules">サーバールール</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="#plugins">プラグイン解説</a>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+    <a class="ml-2" href="#table of contents">目次へ戻る！</a>
+    <br>
+    <div class="container">
+        <section>
+            <div id="overviwe" class="alert alert-primary" role="alert">
+                サーバー概要
+            </div>
+            <h4>
+                このサーバーは、三人の管理者と多くのメンバーさんから構成される
+                <br> Java 1.19.3ベースのpaperサーバーです。
+                <br>Minecraftのアップデート後は一時的に入れない可能性があります。
+                <br>常に確認してもらいたいディスコードチャンネルは以下のものです。
+            </h4>
+        </section>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="ml-1 btn btn-outline-primary"><a href="https://discord.com/channels/1044690456195387514/1065961620632776765">⚠超重要</a></button>
+            <button type="button" class="ml-1 btn btn-outline-primary"><a href="https://discord.com/channels/1044690456195387514/1072745204404211722">📗サーバールール</a></button>
+            <button type="button" class="ml-1 btn btn-outline-primary"><a href="https://discord.com/channels/1044690456195387514/1046717683657351178">🔈-̖́-お知らせ</a></button>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <div id="terms of service" class="alert alert-primary" role="alert">
+                サーバー利用規約
+            </div>
+            <h4>
+                サーバーをメンバーさんが安心・安全に利用できるように
+                <br>いくらかのルールを作らせていただいています。
+                <br>こちらのサイトでしか確認できない要項もありますので、
+                <br>気が向いたときにでも確認していただけると幸いです。
+            </h4>
+            <p>
+                <br>
+                <span><i><strong>前文</strong></i></span>
+                <br>この規約はゲームサーバー内およびゲーム外
+                <br>(Discordや、その他のコミュニティなど)において適用されます。
+                <br>文章内略語 ゲームサーバー:当サーバー , メンバーさん:ユーザー
+                <br>
+                <span><i><strong>第一条．ユーザー間問題について</strong></i></span>
+                <br>当サーバーで発生したユーザー間の問題は基本的に個人間で解決してください。
+                <br>解決までが長引く場合・事があまりにも大きい場合は管理者が間に入らせていただきます。
+                <br>
+                <br>
+                <span><i><strong>第二条．禁止行為について</strong></i></span>
+                <br>下記の行為をおこなうとBAN措置を受ける可能性があります。
+                <br>第1項.サーバールールを守れない
+                <br>第2項.スパム行為など他者に迷惑をかける行為
+                <br>第3項.故意にプラグインを故障させる行為
+                <br>第4項.Minecraft側のバグなど意図しない事象を利用したプレイ
+                <br>第5項.別サーバーへの無断勧誘・引き抜き行為
+                <br>第6項.他人が聞いて不愉快に思う発言 (過度な下ネタや暴言なども含む)
+                <br>第7項.非正規のクライアント(ハッククライアント)の利用
+                <br>
+                <br>
+                <span><i><strong>第三条．サーバーサービスの停止及び変更について</strong></i></span>
+                <br>第1項.サービス停止
+                <br>以下のいずれかの事由があると判断した場合，ユーザーに事前に通知することなくサーバーの全部または一部の提供を停止または中断することができるものとします。
+                <br>- コンピュータシステムの保守点検または更新を行う場合
+                <br>- 地震，落雷，火災，停電または天災などの不可抗力により，本サービスの提供が困難となった場合
+                <br>- コンピュータまたは通信回線等が事故により停止した場合
+                <br>- その他，当団体が本サービスの提供が困難と判断した場合
+                <br>
+                <br>第2項.サービス変更
+                <br>当サーバーは，ユーザーに通知することなく，サービス内容を変更しまたはサーバーサービスの提供を中止することができるものとします。
+                <br>
+                <br>
+                <span><i><strong>第四条．個人情報の取り扱いについて</strong></i></span>
+                <br>当サーバーはユーザーより下記の情報を収集します。
+                <br>- IPアドレス
+                <br>- Minecraft ID
+                <br>収集された情報はユーザーがサーバーを利用する際に利用されます。
+                <br>当サーバーはこれらの情報を適切に扱うことを約束します。
+
+            </p>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <div id="rules" class="alert alert-primary" role="alert">
+            サーバールール
+        </div>
+        <span>
+            <h4>
+                ここではプレイ中に決まっていったルールなどを随時記載・更新していきます。
+                <br>もし｢この行動ってしてもよかったっけ．．．？｣など不安になったら
+                <br>このページを確認してください！
+            </h4>
+            <p>
+                <br>
+                <span><i><strong>注意書き</strong></i></span>
+                <br>ここに記載されているルールは随時更新されます。
+                <br>それに伴いルールが急に追加・削除・変更される可能性があります。
+                <br>あらかじめご了承ください。
+                <br>
+                <br>
+                <span><i><strong>ルール１</strong></i></span>
+                <br>基本の｢キ｣！
+                <br>他人が嫌がることはしない！
+                <br>みんなが気持ちよく遊べるワールドにしましょう！
+                <br>
+                <br>
+                <span><i><strong>ルール２</strong></i></span>
+                <br>
+            </p>
+        </span>
+        <div id="plugins" class="alert alert-primary" role="alert">
+            プラグイン解説
+        </div>
+        <span>
+            ここでは当サーバーに導入されているプラグインの
+            <br>使い方を解説しています。
+            <br>沢山のプラグインを導入していると
+            <br>使い方がわからない物が出てくると思います。
+            <br>そんな時はこのページを見て使い方を確認しましょう！
+        </span>
+        <div class="dropdown">
+            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                - プラグインを選択してください -
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a href="#lwc">LWC(チェスト等の保護)</a></li>
+                <li role="presentation"><a href="#jecon">Jecon(経済)</a></li>
+            </ul>
+
+            <br>
+            <br>
+            <br>
+
+            <section>
+                <h3 id="lwc">保護プラグイン｢LWC｣解説</h3>
+                <span>
+                    プラグイン概要
+                    <br>・チェスト/かまど等のブロック保護用のプラグイン
+                    <br>・保護は自動と手動とで切り替えが可能
+                    <br>・保護されたブロックは他人の盗みだけでなく爆発や破壊からも守ります。
+                    <br>
+                    <br>
+                    
+                </span>
+            </section>
+            <h5>コマンド解説</h5>
+            <span>コマンドの[]カッコは打たない、中身だけで大丈夫！</span>
+            <table border="8" bordercolor="lightskyblue">
+                <tr>
+                  <th>打ち出すコマンド</th>
+                  <th>動作に関する説明</th>
+                </tr>
+                <tr>
+                  <td>/lwc</td>
+                  <td>LWCのコマンドリストを表示</td>
+                </tr>
+                <tr>
+                  <td>/cprivate</td>
+                  <td>コマンド打った後にパンチで
+                    対象を保護。自分のみの使用可能</td>
+                </tr>
+                <tr>
+                    <td>/cpassword [パス名]</td>
+                    <td>対象をパスワードで保護</td>
+                </tr>
+                <tr>
+                    <td>/cunlock [パス名]</td>
+                    <td>対象のパスワード保護の無効化</td>
+                </tr>
+                <tr>
+                    <td>/cmodify @[Player]</td>
+                    <td>ロック対象に使用できるプレイヤーを追加</td>
+                </tr>
+                <tr>
+                    <td>/cmodify g:[Group]</td>
+                    <td>ロック対象に使用できる権限グループを追加</td>
+                </tr>
+                <tr>
+                    <td>/cmodify -[Player]</td>
+                    <td>ロック対象からプレイヤーを除外</td>
+                </tr>
+                <tr>
+                    <td>/cremove</td>
+                    <td>ロック解除</td>
+                </tr>
+                <tr>
+                    <td>/cremoveall</td>
+                    <td>自分がロックした全保護を一括解除
+                        「本当に解除する？」の後に/lwc confirmでロック解除
+                    </td>
+                </tr>
+                <tr>
+                    <td>/cdonation</td>
+                    <td>誰でも自由にチェストにアイテムを入れれるが、取り出すのは自分だけ。（ポストや寄付チェストに便利）</td>
+                </tr>
+                <tr>
+                    <td>/cpersist</td>
+                    <td>LWCのコマンドを連続で設定可能。
+                        /cpersistを打った後に連続で打ちたいコマンドを打ってパンチし放題。
+                        モード解除はもう一度/cpersistを打つ。
+                    </td>
+                </tr>
+                <tr>
+                    <td>/cinfo</td>
+                    <td>対象の保護情報を確認</td>
+                </tr>
+                <tr>
+                    <td>/climits</td>
+                    <td>保護可能な数を確認</td>
+                </tr>
+                <tr>
+                    <td>/cpublic</td>
+                    <td>破壊等からの保護。使用は全員可能のため共有倉庫向け</td>
+                </tr>
+                <tr>
+                    <td>/cmagnet [on/off]</td>
+                    <td>対象のチェストの周囲3ブロック内のアイテムを自動収納</td>
+                </tr>
+                <tr>
+                    <td>/credstone [on/off]</td>
+                    <td>ドアのレッドストーン動力が反応するかどうか</td>
+                </tr>
+                <tr>
+                    <td>/cautoclose [on/off]</td>
+                    <td>ドアが３秒後で自動で閉まるかどうか</td>
+                </tr>
+                <tr>
+                    <td>/callowexplosions [on/off]</td>
+                    <td>offの場合、爆発の破壊だけを防ぐ</td>
+                </tr>
+            </table>
+
+            <br>
+            <br>
+            <br>
+
+            <section>
+                <h3 id="jecon">経済プラグイン｢Jecon｣解説</h3>
+                <span>
+                    プラグイン概要
+                    <br>・当サーバーの経済プラグイン
+                    <br>・架空口座からの送金はopのみ可能です
+                    <br>・使い勝手の関係で後々変更の可能性あり
+                    
+                </span>
+            </section>
+            <h5>コマンド解説</h5>
+            <span>コマンドの<>,[]カッコは打たない、中身だけで大丈夫！</span>
+            <table border="8" bordercolor="lemonchiffon">
+                <tr>
+                  <th>打ち出すコマンド</th>
+                  <th>動作に関する説明</th>
+                </tr>
+                <tr>
+                  <td>/money</td>
+                  <td>自分の所持金を表示します</td>
+                </tr>
+                <tr>
+                  <td>/money pay <プレイヤー> <金額></td>
+                  <td>プレイヤーに指定した金額を送金します</td>
+                </tr>
+                <tr>
+                    <td>/money top [ページ]</td>
+                    <td>所持金ランキングを表示します</td>
+                </tr>
+                <tr>
+                    <td>/money help</td>
+                    <td>コマンドの使い方を表示します</td>
+                </tr>
+            </table>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
