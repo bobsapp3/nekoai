@@ -168,6 +168,7 @@
             <ul class="dropdown-menu" role="menu">
                 <li role="presentation"><a href="#lwc">LWC(チェスト等の保護)</a></li>
                 <li role="presentation"><a href="#jecon">Jecon(経済)</a></li>
+                <li role="presentation"><a href="#company">custom-company(企業)</a></li>
             </ul>
 
             <br>
@@ -190,16 +191,16 @@
             <span>コマンドの[]カッコは打たない、中身だけで大丈夫！</span>
             <table border="8" bordercolor="lightskyblue">
                 <tr>
-                  <th>打ち出すコマンド</th>
-                  <th>動作に関する説明</th>
+                    <th>打ち出すコマンド</th>
+                    <th>動作に関する説明</th>
                 </tr>
                 <tr>
-                  <td>/lwc</td>
-                  <td>LWCのコマンドリストを表示</td>
+                    <td>/lwc</td>
+                    <td>LWCのコマンドリストを表示</td>
                 </tr>
                 <tr>
-                  <td>/cprivate</td>
-                  <td>コマンド打った後にパンチで
+                    <td>/cprivate</td>
+                    <td>コマンド打った後にパンチで
                     対象を保護。自分のみの使用可能</td>
                 </tr>
                 <tr>
@@ -283,7 +284,7 @@
                     プラグイン概要
                     <br>・当サーバーの経済プラグイン
                     <br>・架空口座からの送金はopのみ可能です
-                    <br>・使い勝手の関係で後々変更の可能性あり
+                    <br>・おそらく一番使用率が高い
                     
                 </span>
             </section>
@@ -291,16 +292,16 @@
             <span>コマンドの<>,[]カッコは打たない、中身だけで大丈夫！</span>
             <table border="8" bordercolor="lemonchiffon">
                 <tr>
-                  <th>打ち出すコマンド</th>
-                  <th>動作に関する説明</th>
+                    <th>打ち出すコマンド</th>
+                    <th>動作に関する説明</th>
                 </tr>
                 <tr>
-                  <td>/money</td>
-                  <td>自分の所持金を表示します</td>
+                    <td>/money</td>
+                    <td>自分の所持金を表示します</td>
                 </tr>
                 <tr>
-                  <td>/money pay <プレイヤー> <金額></td>
-                  <td>プレイヤーに指定した金額を送金します</td>
+                    <td>/money pay <プレイヤー> <金額></td>
+                    <td>プレイヤーに指定した金額を送金します</td>
                 </tr>
                 <tr>
                     <td>/money top [ページ]</td>
@@ -309,6 +310,81 @@
                 <tr>
                     <td>/money help</td>
                     <td>コマンドの使い方を表示します</td>
+                </tr>
+            </table>
+
+            <br>
+            <br>
+            <br>
+
+            <section>
+                <h3 id="company">企業プラグイン｢custom-company｣解説</h3>
+                <span>
+                    プラグイン概要
+                    <br>・当サーバー限定の企業プラグイン
+                    <br>・各々が自分の企業を作ることができます
+                    <br>・配布に関しては悩み中
+                    <br>・/company の部分は /c と省略可能
+                    
+                </span>
+            </section>
+            <h5>コマンド解説</h5>
+            <table border="8" bordercolor="mediumvioletred">
+                <tr>
+                    <th>打ち出すコマンド</th>
+                    <th>動作に関する説明</th>
+                </tr>
+                <tr>
+                    <td>/company</td>
+                    <td>このプラグインのヘルプを表示します</td>
+                </tr>
+                <tr>
+                    <td>/company create [企業の名前]</td>
+                    <td>お金をかけて企業を作成</td>
+                </tr>
+                <tr>
+                    <td>/company list</td>
+                    <td>現存する企業のリストを表示します</td>
+                </tr>
+                <tr>
+                    <td>/company menu</td>
+                    <td>自社の企業メニューを表示します</td>
+                </tr>
+                <tr>
+                    <td>/company join [企業の名前]</td>
+                    <td>指定した企業に入社申請を送ります(社長オンライン時のみ)</td>
+                </tr>
+                <tr>
+                    <td>/company deposit [数値]</td>
+                    <td>所持金を資本金として所属企業に預金します</td>
+                </tr>
+                <tr>
+                    <td>/company leave</td>
+                    <td>所属している企業から退社します</td>
+                </tr>
+                <tr>
+                    <td>/company confirm</td>
+                    <td>所属している企業から退社します</td>
+                </tr>
+                <tr>
+                    <td>/company leader [名前]</td>
+                    <td>社長を変更します(社長のみ使用可)</td>
+                </tr>
+                <tr>
+                    <td>/company rename [名前]</td>
+                    <td>企業の名前を変更します(社長のみ使用可)</td>
+                </tr>
+                <tr>
+                    <td>/company accept [名前]</td>
+                    <td>送られてきた入社申請を許可します(社長のみ使用可)</td>
+                </tr>
+                <tr>
+                    <td>/company withdraw [数値]</td>
+                    <td>資本金を引き出します(社長のみ使用可)</td>
+                </tr>
+                <tr>
+                    <td>/company delete</td>
+                    <td>自社企業を削除します(社長のみ使用可)</td>
                 </tr>
             </table>
 
